@@ -6,7 +6,8 @@ def makeHTML(contents):
     content_html = """"""
     state = " active"
     for content in contents:
-        content_html += f"""          <div class="carousel-item slider-fullscreen-image{state}" data-bg-video-slide="false" style="background-image: url(assets/images/download-1280x720.jpg);">
+        content_html += f"""
+        <div class="carousel-item slider-fullscreen-image{state}" data-bg-video-slide="false" style="background-image: url(assets/images/download-1280x720.jpg);">
                     <div class="container container-slide">
                       <div class="image_wrapper">
                         <div class="mbr-overlay"></div>

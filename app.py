@@ -97,8 +97,6 @@ class Window(QWidget):
 
 
 if __name__ == "__main__":
-    import sys
-
     app = QApplication(argv)
     our_window = Window()
     exit(app.exec_())
